@@ -3,6 +3,7 @@ package com.example.trenaer;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,17 @@ public class WorkoutDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_workout_detail, container, false);
+        if(savedInstanceState!=null)
+        {
+            workoutId=savedInstanceState.getLong("workoutId");
+        }
+        FragmentTransaction ft = getChildFragmentManager().beginTransaction();
+        stopwatch stopwatchfragment = new stopwatch();
+        ft.replace(R.id.stopwatch_cotainer, stopwatchfragment);
+        ft.addToBackStack(null);
+        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+        ft.commit();
+        return  inflater.inflate(R.layout.fragment_workout_detail,container,false);
     }
 
     public void onStart() {
