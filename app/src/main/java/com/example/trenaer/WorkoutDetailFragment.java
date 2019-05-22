@@ -28,13 +28,15 @@ public class WorkoutDetailFragment extends Fragment {
         {
             workoutId=savedInstanceState.getLong("workoutId");
         }
-        if(workoutId!=6) {
-            FragmentTransaction ft = getChildFragmentManager().beginTransaction();
-            stopwatch stopwatchfragment = new stopwatch();
-            ft.replace(R.id.stopwatch_cotainer, stopwatchfragment);
-            ft.addToBackStack(null);
-            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-            ft.commit();
+        else {
+            if (workoutId != 6) {
+                FragmentTransaction ft = getChildFragmentManager().beginTransaction();
+                stopwatch stopwatchfragment = new stopwatch();
+                ft.replace(R.id.stopwatch_cotainer, stopwatchfragment);
+                ft.addToBackStack(null);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                ft.commit();
+            }
         }
         return  inflater.inflate(R.layout.fragment_workout_detail,container,false);
     }
