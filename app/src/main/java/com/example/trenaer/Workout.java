@@ -19,12 +19,12 @@ public class Workout {
 
             new Workout("6. ćwiczenie szóstki Weidera","W tym ćwiczeniu unosimy jednocześnie część barkową tułowia i obie wyprostowane nogi. Przytrzymujemy 3 s.",R.raw.cw6),
 
-            new Workout("Rozpiska","1. dzień 1 seria 6 powtórzeń.\n2. dzień 2 seria 6 powtórzeń.\n3. dzień 2 seria 6 powtórzeń.\n4. dzień 3 seria 6 powtórzeń.\n5. dzień 3 seria 6 powtórzeń.\n6. dzień 3 seria 6 powtórzeń.\n7 dzień 3 seria 8 powtórzeń.\n8 dzień 3 seria 8 powtórzeń.\n" +
-                    "9. dzień 3 seria 8 powtórzeń.\n10. dzień 3 seria 8 powtórzeń.\n11. dzień 3 seria 10 powtórzeń.\n12. dzień 3 seria 10 powtórzeń.\n13. dzień 3 seria 10 powtórzeń.\n14. dzień 3 seria 10 powtórzeń.\n15. dzień 3 seria 12 powtórzeń.\n" +
-                    "16. dzień 3 seria 12 powtórzeń.\n17. dzień 3 seria 12 powtórzeń.\n18. dzień 3 seria 12 powtórzeń.\n19. dzień 3 seria 12 powtórzeń.\n20. dzień 3 seria 14 powtórzeń.\n21. dzień 3 seria 14 powtórzeń.\n22. dzień 3 seria 14 powtórzeń.\n" +
-                    "23. dzień 3 seria 16 powtórzeń.\n24. dzień 3 seria 16 powtórzeń.\n25. dzień 3 seria 16 powtórzeń.\n26. dzień 3 seria 16 powtórzeń.\n27. dzień 3 seria 18 powtórzeń.\n28. dzień 3 seria 18 powtórzeń.\n29. dzień 3 seria 18 powtórzeń.\n30. dzień 3 seria 18 powtórzeń.\n" +
-                    "31. dzień 3 seria 20 powtórzeń.\n32. dzień 3 seria 20 powtórzeń.\n33. dzień 3 seria 20 powtórzeń.\n34. dzień 3 seria 20 powtórzeń.\n35. dzień 3 seria 22 powtórzeń.\n36. dzień 3 seria 22 powtórzeń.\n" +
-                    "37. dzień 3 seria 22 powtórzeń.\n38. dzień 3 seria 22 powtórzeń.\n39. dzień 3 seria 24 powtórzeń.\n40. dzień 3 seria 24 powtórzeń.\n41. dzień 3 seria 24 powtórzeń.\n42. dzień 3 seria 24 powtórzeń.\n",R.raw.okejka)
+            new Workout("Rozpiska","1 dzień 1 seria 6 powtórzeń.\n2 dzień 2 seria 6 powtórzeń.\n3 dzień 2 seria 6 powtórzeń.\n4 dzień 3 seria 6 powtórzeń.\n5 dzień 3 seria 6 powtórzeń.\n6 dzień 3 seria 6 powtórzeń.\n7 dzień 3 seria 8 powtórzeń.\n8 dzień 3 seria 8 powtórzeń.\n" +
+                    "9 dzień 3 seria 8 powtórzeń.\n10 dzień 3 seria 8 powtórzeń.\n11 dzień 3 seria 10 powtórzeń.\n12 dzień 3 seria 10 powtórzeń.\n13 dzień 3 seria 10 powtórzeń.\n14 dzień 3 seria 10 powtórzeń.\n15 dzień 3 seria 12 powtórzeń.\n" +
+                    "16 dzień 3 seria 12 powtórzeń.\n17 dzień 3 seria 12 powtórzeń.\n18 dzień 3 seria 12 powtórzeń.\n19 dzień 3 seria 12 powtórzeń.\n20 dzień 3 seria 14 powtórzeń.\n21 dzień 3 seria 14 powtórzeń.\n22 dzień 3 seria 14 powtórzeń.\n" +
+                    "23 dzień 3 seria 16 powtórzeń.\n24 dzień 3 seria 16 powtórzeń.\n25 dzień 3 seria 16 powtórzeń.\n26 dzień 3 seria 16 powtórzeń.\n27 dzień 3 seria 18 powtórzeń.\n28 dzień 3 seria 18 powtórzeń.\n29 dzień 3 seria 18 powtórzeń.\n30 dzień 3 seria 18 powtórzeń.\n" +
+                    "31 dzień 3 seria 20 powtórzeń.\n32 dzień 3 seria 20 powtórzeń.\n33 dzień 3 seria 20 powtórzeń.\n34 dzień 3 seria 20 powtórzeń.\n35 dzień 3 seria 22 powtórzeń.\n36 dzień 3 seria 22 powtórzeń.\n" +
+                    "37 dzień 3 seria 22 powtórzeń.\n38 dzień 3 seria 22 powtórzeń.\n39 dzień 3 seria 24 powtórzeń.\n40 dzień 3 seria 24 powtórzeń.\n41 dzień 3 seria 24 powtórzeń.\n42 dzień 3 seria 24 powtórzeń.\n",R.raw.okejka)
 
 
     };
