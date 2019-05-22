@@ -72,13 +72,14 @@ public class WorkoutDetailFragment extends Fragment {
             TextView title = (TextView)view.findViewById(R.id.textTitle);
             Workout workout = Workout.workouts[(int) workoutId];
             title.setText(workout.getName());
-           // TextView description = (TextView)view.findViewById(R.id.textDescription);
-           // description.setText(workout.getDescription());
+            TextView description = (TextView)view.findViewById(R.id.textDescription);
+            description.setText(workout.getDescription());
 
             ImageView img = (ImageView)view.findViewById(R.id.imageView);
             img.setImageResource(workout.getFotka());
             if(workoutId==6)
             {
+                description.setVisibility(View.INVISIBLE);
 
 
                 img.setVisibility(View.INVISIBLE);
